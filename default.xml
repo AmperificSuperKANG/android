@@ -18,7 +18,7 @@
     remote="aosp"
     sync-j="4" />
     
-    <project path="build" name="android_build" remote="ampere" revision="android-4.4" groups="pdk" >
+    <project path="build" name="android_build" remote="ampere" revision="4.4" groups="pdk" >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
 
@@ -244,7 +244,7 @@
     <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
     <project path="external/zxing" name="platform/external/zxing" />
     <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-4.4" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="ampere" revision="android-4.4" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="ampere" revision="4.4" />
     <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
     <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
     <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -318,7 +318,7 @@
     <project path="packages/apps/DashClock" name="android_packages_apps_DashClock" remote="omnirom" revision="android-4.4" />
     <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="omnirom" revision="android-4.4" />
     <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="omnirom" revision="android-4.4" />
-    <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="ampere" revision="android-4.4" />
+    <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="ampere" revision="4.4" />
     <project path="packages/apps/Email" name="android_packages_apps_Email" remote="omnirom" revision="android-4.4" />
     <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
     <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
@@ -333,18 +333,17 @@
     <project path="packages/apps/Music" name="platform/packages/apps/Music" />
     <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
     <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
-    <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="ampere" revision="android-4.4" />
+    <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="ampere" revision="4.4" />
     <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-4.4" />
     <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
     <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="omnirom" revision="android-4.4" />
     <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnirom" revision="android-4.4" />
-    <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="ampere" revision="android-4.4" />
     <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="omnirom" revision="android-4.4" />
     <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
     <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
     <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
     <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ampere" revision="android-4.4" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ampere" revision="4.4" />
     <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
     <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
     <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -446,6 +445,6 @@
     <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
     <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
     <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-    <project path="vendor/ampere" name="android_vendor_ampere" remote="ampere" revision="android-4.4" />
+    <project path="vendor/ampere" name="android_vendor_ampere" remote="ampere" revision="4.4" />
     <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
 </manifest>
