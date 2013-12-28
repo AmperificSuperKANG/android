@@ -11,7 +11,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the Ampere trees, use a command like this:
 
-    repo init -u git://https://github.com/AmperificSuperKANG/android.git -b <branch>
+    repo init -u git@github.com:AmperificSuperKANG/android.git -b <branch>
 
 Then to sync up:
 
