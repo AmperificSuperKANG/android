@@ -47,6 +47,7 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="CyanogenMod/android_development" remote="cm" revision="cm-11.0" />
+  <project path="vendor/askp" name="AmperificSuperKANG/android_device_lge_g2-common" remote="github" revision="kitkat" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-11.0" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
