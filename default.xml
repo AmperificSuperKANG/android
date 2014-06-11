@@ -450,6 +450,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-4.4" />
-<project path="vendor/ampere" name="android_vendor_ampere" remote="ampere" revision="android-4.4" />
+<project path="vendor/ampere" name="android_vendor_ampere" remote="ampere" revision="4.4" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
 </manifest>
