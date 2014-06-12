@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="ampere"
-           fetch="https://github.com/AmperificSuperKANG" />
+  <remote  name="xda"
+           fetch=".." />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -10,6 +10,10 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
+
+  <remote  name="ampere"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/AmperificSuperKANG" />
 
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
@@ -40,7 +44,6 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="android_development" remote="omnirom" revision="android-4.4" />
   <project path="device/common" name="device/common" />
-  <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="ampere" revision="android-4.4" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
@@ -253,7 +256,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-4.4" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="ampere" revision="android-4.4" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-4.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -450,6 +453,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-<project path="vendor/ampere" name="android_vendor_ampere" remote="ampere" revision="4.4" />
+  <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
 </manifest>
